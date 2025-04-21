@@ -1,4 +1,3 @@
 FROM nginx:alpine
-COPY . /usr/share/nginx/html
-EXPOSE 80
-CMD ["nginx", "-g", "daemon off;"]
+COPY index.html /usr/share/nginx/html/index.html
+COPY static.json /usr/share/nginx/html/static.json
