@@ -1,7 +1,4 @@
 {
-  "root": ".",
-  "clean_urls": false,
-  "routes": {
-    "/**": "opdd-extension-ui.html"
-  }
+  "root": "./",
+  "clean_urls": false
 }
